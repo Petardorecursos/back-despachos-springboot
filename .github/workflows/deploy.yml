@@ -6,7 +6,7 @@ on:
 
 env:
   AWS_REGION: us-east-1
-  ECR_REPOSITORY: back-despachos_springboot # Asegúrate que este nombre coincida con tu ECR
+  ECR_REPOSITORY: back-despachos-springboot # Asegúrate que este nombre coincida con tu ECR
 
 jobs:
   build-and-push:
